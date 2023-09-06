@@ -1,0 +1,92 @@
+.owl-carousel .item{
+ /* border: 1px solid black; */
+ font-size: 24px;
+ text-align: center;
+ margin-top: 20px;;
+}
+
+.custom-fixed-size-image {
+  width: 620px; /* Set your desired width */
+  height: 700px; /* Set your desired height */
+  object-fit: cover; /* Adjust to fit your needs */
+}
+
+.price{
+  color:crimson;
+}
+
+.owl-next{
+ float:right;
+}
+.owl-prev{
+ float:left;
+}
+.owl-prev span{
+ font-size: 24px;
+ font-weight: bold;
+}
+.owl-next span{
+ font-size: 24px;
+ font-weight: bold;
+}
+
+.product-title {
+    display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  }
+
+.gradient-custom {
+  background: linear-gradient(to right, rgba(106, 17, 203, 0.9) 0%, rgba(37, 117, 252, 0.9)  51%, rgba(106, 17, 203, 0.9)  100%);
+                    
+}
+
+         
+.btn-grad1 {
+  background-image: linear-gradient(to right, #ee0979 0%, #ff6a00  51%, #ee0979  100%);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;       
+  font-weight: bold;     
+  margin-top: 3px;
+  margin-right: 5px;
+  box-shadow: 5px 5px 10px #120752;
+  border-radius: 10px;
+  display: block;  
+  padding: 4px 6px;
+} 
+
+.btn-grad {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  background-image: linear-gradient(to right,  #FF512F 0%, #f06f19  51%, #FF512F  100%);
+  text-align: center;
+  font-weight: bolder;     
+  border-radius: 10px;
+  display: block;
+}
+
+
+.custom-shadow {
+  position: relative;
+}
+
+.custom-shadow:before {
+  content: "";
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+  right: 0;
+  height: 5px; /* Adjust this value to control the shadow thickness */
+  background: rgba(218, 13, 13, 0.1); /* Adjust this value to control the shadow color */
+  box-shadow: 0 5px 10px rgba(196, 95, 27, 0.1); /* Adjust this value to control the shadow properties */
+  border-radius: 2px; /* Adjust this value to control the shadow's curve */
+}
+
+.transparent-background {
+  background-color: rgba(255, 255, 255, 0); /* Transparent white background */
+}
